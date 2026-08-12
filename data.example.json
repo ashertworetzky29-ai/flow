@@ -1,0 +1,18 @@
+{
+  "_note": "Copy this to data.json locally. On Render, use DATABASE_URL env for Postgres. Never commit real data.json",
+  "users": {
+    "demo": {
+      "pw": "replace_with_hashed_password",
+      "token": "demo_token_change_me",
+      "holdings": [],
+      "watchlist": [
+        "AAPL",
+        "NVDA",
+        "TSLA",
+        "SPY",
+        "MSFT",
+        "GOOGL"
+      ]
+    }
+  }
+}

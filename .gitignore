@@ -1,0 +1,10 @@
+# Flow secrets
+data.json
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+.krabby/
+.DS_Store
+.vscode/
