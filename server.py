@@ -233,6 +233,7 @@ def register():
     save_user(username, pw_hash, token, [], [])
     return jsonify({"token": token, "username": username})
 
+@app.route('/api/auth', methods=['POST'])
 @app.route('/api/login', methods=['POST'])
 def login():
     b = request.get_json(force=True) or {}
