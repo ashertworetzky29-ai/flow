@@ -1,36 +1,76 @@
 {
-  "name": "Flow",
-  "short_name": "Flow",
-  "description": "Flow - AI stock portfolio tracker with real yfinance data",
+  "name": "tickr",
+  "short_name": "tickr",
+  "description": "Portfolio tracker \u2014 auto sector sorting, real P/L, earnings alerts, dividend watch",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#0a0a0a",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "browser"
+  ],
+  "orientation": "any",
   "theme_color": "#0a0a0a",
-  "orientation": "portrait",
+  "background_color": "#fefcf8",
+  "categories": [
+    "finance",
+    "productivity"
+  ],
+  "lang": "en",
   "icons": [
     {
-      "src": "/flow-icon-192.png",
+      "src": "tickr-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/flow-icon-512.png",
+      "src": "tickr-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/flow-icon-192-maskable.png",
+      "src": "tickr-192-maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/flow-icon-512-maskable.png",
+      "src": "tickr-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
-  ]
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Holding",
+      "short_name": "Add",
+      "description": "Quick add a holding",
+      "url": "/?action=add",
+      "icons": [
+        {
+          "src": "tickr-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "short_name": "Search",
+      "description": "Command center",
+      "url": "/?action=search",
+      "icons": [
+        {
+          "src": "tickr-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
 }
